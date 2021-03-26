@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.corpo{
+    position: relative;
+    width: 150px;
+    height: 355px;
+    background-color: rgb(4, 71, 4);
+    border-radius: 38% 40% 0 0;
+    top: 2rem;
+}
+.olho-esquerdo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    top: 21%;
+    left: 20%;
+}
+
+.olho-direito{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    top: 21%;
+    left: 65%;
+}
+.boca{
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: 30%;
+    left: 24%;
+}
+.boca-det{
+    position: absolute;
+    width: 82px;
+    height: 50px;
+    background-color: rgb(4, 71, 4);
+    border-radius: 50%;
+    top: 28%;
+    left: 22%;
+}
+.vaso{
+    position: absolute;
+    width: 250px;
+    top: 100%;
+    right: -31%;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 180px solid rgb(44, 19, 19);
+} 
+.det-vaso{
+    position: absolute;
+    width: 244px;
+    top: 108%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 32px solid #FFC107;
+    right: -44px;
+}
+.braco-direito{
+    position: absolute;
+    width: 70px;
+    height: 63px;
+    background-color: rgb(4, 71, 4);
+    left: 9rem;
+    border-radius: 9% 0 20% 0;
+    top: 44%;
+}   
+.braco-det{
+    position: absolute;
+    width: 54px;
+    height: 75px;
+    background-color: rgb(4, 71, 4);
+    left: 10rem;
+    bottom: 56%;
+    border-radius: 36% 36% 0 0;
+}
+.braco-esquerdo{
+    position: absolute;
+    background-color: rgb(4, 71, 4);
+    width: 74px;
+    height: 63px;
+    top: 61%;
+    right: 9rem;
+    border-radius: 0 0 0 34%;
+}
+.det-esquerdo{
+    position: absolute;
+    background-color: rgb(4, 71, 4);
+    width: 58px;
+    height: 63px;
+    top: 47%;
+    right: 10rem;
+    border-radius: 36% 36% 0 0;
+}
+.espinho1{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 80%;
+    left: 16px;
+
+}
+.espinho2{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 70%;
+    left: 70px;
+
+}
+.espinho3{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 80%;
+    left: 117px;
+
+}
+.espinho4{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 55%;
+    left: 16px;
+
+}
+.espinho5{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 55%;
+    left: 113px;
+}
+.espinho6{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 45%;
+    left: 170px;
+}
+.espinho7{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 67%;
+    right: 182px;
+}
+
+.espinho8{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f7f5f5;
+    top: 92%;
+    left: 69px;
+}
+.flor{
+    width: 49px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #ca1f6f;
+    position: absolute;
+    left: 106%;
+    top: 17%;
+    transform: rotate(45deg);
+}
+.flor-det{
+    width: 49px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #ca1f6f;
+    position: absolute;
+    left: 105%;
+    top: 17%;
+    transform: rotate(135deg);
+}
